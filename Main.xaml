@@ -82,7 +82,7 @@
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="1st Sequence" sap:VirtualizedContainerService.HintSize="272,153" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="1st Sequence" sap:VirtualizedContainerService.HintSize="272,355" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Int32)" Name="DictionaryDemo" />
     </Sequence.Variables>
@@ -92,5 +92,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="Hi I am going to GitHub" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_14" Text="Hi CH" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="Hi Lee" />
   </Sequence>
 </Activity>
